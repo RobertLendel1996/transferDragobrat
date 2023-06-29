@@ -1,180 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<title>transferDrag</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230629232735">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «transferDragobrat»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка «transferDragobrat»</h1>
-		<div class="rootpage__info">
-			Опис проєкту
-		</div>
-		<h2>Готові сторінки:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html">Головна</a></li>
-			<li><a target="_blank" href="price.html">Ціни</a></li>
-		</ol>
-		<h2>Попапи:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html#"></a></li>
-		</ol>
-		<div class="rootpage__tnx">
-			<h2>Дякую за замовлення!</h2>
-			<p>Буду радий (да) гарному відгуку.</p>
-			<p>Звертайтесь ще!</p>
-		</div>
-		<div class="rootpage__contacts">
-			<h2>Мої контакти:</h2>
-			<p>Пошта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
-			<p>Соц. мережі: <a href="">посилання</a></p>
-		</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".main-block" class="menu__link">Головна</a></li>
+							<li class="menu__item"><a href="#" data-goto=".prices" class="menu__link">Ціни</a></li>
+							<li class="menu__item"><a href="#" data-goto=".parking" class="menu__link">Паркінг</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__image-ibg">
+					<picture><source srcset="img/main-block.webp" type="image/webp"><img src="img/main-block.jpg" alt="Image"></picture>
+				</div>
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__content">
+							<h1 class="main-block__title">Трансфер На ДРАГОБРАТ</h1>
+							<div class="main-block__text">
+								<p>Бронювання трансферу на Драгобрат – це безумовні переваги, а саме:</p>
+							</div>
+							<ul class="main-block__list">
+								<li class="main-block__item">1. Вчасно поданий адаптований автомобіль.</li>
+								<li class="main-block__item">2. Ввічливий, висококваліфікований водій.</li>
+								<li class="main-block__item">3. Гарантована безпека доставлення пасажирів.</li>
+								<li class="main-block__item">4. Доступна вартість поїздки.</li>
+								<li class="main-block__item">5. Безпечне зберігання вашого авто на стоянці під цілодобовим
+									наглядом.</li>
+							</ul>
+							<a href="#" data-goto=".prices" class="main-block__button button">Детальніше</a>
+						</div>
+						<a href="#" data-goto=".additionally" class="main-block__arrows navigation__arrows">
+							<div class="navigation__arrow navigation__arrow_1 _icon-arrow"></div>
+							<div class="navigation__arrow navigation__arrow_2 _icon-arrow"></div>
+							<div class="navigation__arrow navigation__arrow_3 _icon-arrow"></div>
+						</a>
+					</div>
+				</div>
+				<div class="main-block__phone phone">
+					<a href="tel:+380678020572" class="phone__icon _icon-phone"></a>
+				</div>
+			</section>
+			<section class="page__additionally additionally">
+				<div class="additionally__container">
+					<div class="additionally__body">
+						<h3 class="additionally__title _anim-items _anim-no-hide">Також ви можете провести свій літній відпочинок в горах
+							і покататись на джипах, УАЗ-ах та ГАЗ-66 такими напрямами :</h3>
+						<ul class="additionally__list _anim-items _anim-no-hide">
+							<li class="additionally__item">Гора Близниця 1883м</li>
+							<li class="additionally__item">Гора Стіг 1704м</li>
+							<li class="additionally__item">Озеро Ворожаска 1460м</li>
+							<li class="additionally__item">Озеро Герешаска 1577м</li>
+							<li class="additionally__item">Початок річки Чорна Тиса </li>
+							<li class="additionally__item">Озеро Апшинець 1487м</li>
+							<li class="additionally__item">Гора Говерла 2061м</li>
+							<li class="additionally__item">Гора Петрос 2020м</li>
+							<li class="additionally__item">Гора Піп Іван 2022м</li>
+						</ul>
+						<div class="additionally__text _anim-items _anim-no-hide">
+							<p>Можливі і інші напрямки.</p>
+						</div>
+						<a href="tel:+380678020572" class="additionally__button button _anim-items _anim-no-hide">Зв’язатись</a>
+					</div>
+					<div class="additionally__image-ibg _anim-items _anim-no-hide"><picture><source srcset="img/auto.webp" type="image/webp"><img src="img/auto.jpg" alt=""></picture></div>
+				</div>
+			</section>
+			<section class="page page__parking parking">
+				<div class="parking__image-ibg"><picture><source srcset="img/parking.webp" type="image/webp"><img src="img/parking.jpg" alt="parking"></picture></div>
+				<div class="parking__container">
+					<div class="parking__body">
+						<h2 class="parking__title title  _anim-items _anim-no-hide">
+							Автостоянка Ясіня
+						</h2>
+						<div class="parking__label _anim-items _anim-no-hide">Вартість паркування – 50 грн. за добу за автомобіль</div>
+						<div class="parking__text _anim-items _anim-no-hide">
+							<p>Паркувальний майданчик зручно розташований на центральній вулиці смт Ясіня – Миру (автодорога Н-09). На фото – заїзд на паркувальний майданчик зі сторони Яблуницького перевалу (Напрямок – Яремче, Надвірна, Івано-Франківськ, Львів).</p>
+							<p>Парковка, що охороняється (стоянка, автостоянка) з відеоспостереженням у смт. Ясіня біля підніжжя гірськолижного курорту “Драгобрат” біля центральної автомобільної дороги Яремче-Рахів.</p>
+							<p>На парковку приймаються <strong>легкові автомобілі, кроссовери (джипи), мікроавтобуси.</strong> </p>
+						</div>
+						<div class="parking__label _anim-items _anim-no-hide">Адреса парковки</div>
+						<div class="parking__text _anim-items _anim-no-hide">
+							<p>Закарпатська область, Рахівський район</p>
+							<p>смт. Ясіня, вул. Визволення</p>
+						</div>
+						<a href="#" data-goto=".prices" class="parking__button button _anim-items _anim-no-hide">Детальніше</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__prices prices">
+				<div class="prices__container">
+					<h2 class="prices__title _anim-items _anim-no-hide">Ціни</h2>
+					<div class="prices__label _anim-items _anim-no-hide">Вартість послуг нашої компанії (підйом/спуск) на Драгобрат</div>
+					<table class="prices__table table-prices _anim-items _anim-no-hide">
+						<tbody>
+							<tr>
+								<td class="table-prices__title">Транспорт</td>
+								<td class="table-prices__title">Кількість, чол.</td>
+								<td class="table-prices__title">Багаж</td>
+								<td class="table-prices__title">Ціна, грн</td>
+							</tr>
+							<tr>
+								<td class="table-prices__text">Джип</td>
+								<td class="table-prices__text">4 особи</td>
+								<td class="table-prices__text">Так</td>
+								<td class="table-prices__text">1200 грн.</td>
+							</tr>
+							<tr>
+								<td class="table-prices__text">УАЗ таблетка</td>
+								<td class="table-prices__text">8 осіб</td>
+								<td class="table-prices__text">Так</td>
+								<td class="table-prices__text">250 грн. з особи</td>
+							</tr>
+							<tr>
+								<td class="table-prices__text">ГАЗ-66</td>
+								<td class="table-prices__text">18 осіб</td>
+								<td class="table-prices__text">Так</td>
+								<td class="table-prices__text">2500 грн.</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="prices__text _anim-items _anim-no-hide">
+						<p>Паркинг в Ясінях: 50грн./доба</p>
+						<p>Вартість підйому/спуску однієї особи складає від 250 грн.</p>
+						<p>Ціни вказані на зимовий сезон відпочинку.</p>
+						<p>Замовити трансфер на Драгобрат, подорож у гори або екскурсію можна на сторінці</p>
+					</div>
+					<a href="tel:+380678020572" class="prices__button button _anim-items _anim-no-hide">Зв’язатись</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+					</div>
+					<a href="tel:+380678020572" class="footer__phone">+38(067)-80-20-572</a>
+					<div class="footer__copy">transferDrag, 2023</div>
+				</div>
+			</div>
+		</footer>
 	</div>
+	<script src="js/app.min.js?_v=20230629232735"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #fff;
-		background-color: #5e5373;
-	}
-
-	body {
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color: #ebe691
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #aaa768;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #ebe691;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #ebe691;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: #32b5a4;
-
-	}
-
-	.rootpage__contacts a {
-		color: #ebe691;
-	}
-
-	.rootpage__tnx {
-		background: #c22d63;
-		margin: 0px 0px 1rem 0px;
-	}
-</style>
 
 </html>
